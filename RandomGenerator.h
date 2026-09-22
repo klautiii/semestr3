@@ -15,15 +15,12 @@ namespace miit::algebra {
         /**
          * @brief Виртуальный деструктор
          */
-        virtual ~Generator() = 0;
+        virtual ~Generator() = default;
 
         /**
          * @brief Сгенерировать очередное значение
          * @return сгенерированное значение
          */
-        virtual int generate() = 0;
-    };
-
-    inline Generator::~Generator() {}
+        
 
 } // namespace miit::algebra
