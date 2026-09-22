@@ -1166,12 +1166,3 @@ TEST(ValidationTest, CopyDoesNotAffectOriginal) {
     EXPECT_EQ(m1[0][0], 1);
     EXPECT_EQ(m2[0][0], 99);
 }
-
-// ============================================================
-// Точка входа для тестов
-// ============================================================
-
-int main(int argc, char** argv) {
-    ::testing::InitGoogleTest(&argc, argv);
-    return RUN_ALL_TESTS();
-}
