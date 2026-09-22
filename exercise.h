@@ -12,7 +12,6 @@ namespace miit::algebra {
         Matrix<int> matrix;
 
     public:
-        Exercise() = default;
         virtual ~Exercise() = default;
 
         /**
