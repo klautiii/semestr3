@@ -144,7 +144,7 @@ namespace miit::algebra {
          * @brief Заполнить всю матрицу заданным значением
          * @param value Значение для заполнения
          */
-        void fill(const T& value);
+        void fill(const generator& g);
 
         // ============================================================
         // Методы вывода
@@ -160,11 +160,7 @@ namespace miit::algebra {
         // Методы копирования
         // ============================================================
 
-        /**
-         * @brief Создать копию матрицы
-         * @return Умный указатель на копию матрицы
-         */
-        std::unique_ptr<Matrix<T>> clone() const;
+      
     };
 
 } // namespace miit::algebra
