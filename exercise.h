@@ -17,7 +17,6 @@ namespace miit::algebra {
         /**
          * @brief Устанавливает матрицу
          */
-        void setMatrix(const Matrix<int>& mat);
 
         /**
          * @brief Получает текущую матрицу
