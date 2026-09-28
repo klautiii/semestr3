@@ -5,7 +5,7 @@
 
 namespace miit::algebra {
 
-    /
+    /**
      * @brief Генератор случайных целых чисел в заданном диапазоне
      */
     class RandomGenerator : public Generator {
@@ -14,7 +14,7 @@ namespace miit::algebra {
         std::uniform_int_distribution<int> distribution;
 
     public:
-        /
+        /**
          * @brief Конструктор
          * @param min нижняя граница диапазона
          * @param max верхняя граница диапазона
